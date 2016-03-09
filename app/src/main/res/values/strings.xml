@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Allbum</string>
+    <string name="title_activity_album">AlbumActivity</string>
 </resources>
