@@ -1,3 +1,4 @@
 # Android-Album
-Android相册
-引入RecycleView 和 CardView 均为Android 5.0效果
+Android相册Demo
+加入RecycleView，CardView 和Rxjava 都是较为简单的 应用
+参考ImageScan这个 项目
