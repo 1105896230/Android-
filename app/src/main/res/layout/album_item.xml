@@ -4,29 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <android.support.v7.widget.CardView
-        android:id="@+id/list_item_carview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:background="?android:attr/selectableItemBackground"
-        card_view:cardCornerRadius="8dp"
-        card_view:cardElevation="8dp">
-
         <ImageView
             android:id="@+id/list_item_iv"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:scaleType="fitXY"
             android:src="@mipmap/ic_launcher" />
-    </android.support.v7.widget.CardView>
 
     <TextView
         android:id="@+id/album_list_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:layout_toRightOf="@+id/list_item_carview"
+        android:layout_toRightOf="@+id/list_item_iv"
         android:text="Camera" />
 
     <TextView
@@ -34,6 +24,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/album_list_title"
-        android:layout_toRightOf="@+id/list_item_carview"
+        android:layout_toRightOf="@+id/list_item_iv"
         android:text="32" />
 </RelativeLayout>
